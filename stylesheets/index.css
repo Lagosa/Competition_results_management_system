@@ -1,0 +1,139 @@
+body{
+	background-color:#dddcdc;
+	font-family: 'Arial', Calibri;
+}
+
+
+/* Header formatting */
+#teljes_oldal #header {
+	background-color:#5f7f9e;
+
+	font-size: 27px;
+
+	padding: 0.5em;
+	margin:-7px;
+
+	padding-bottom: 0px;
+	height: 50px;
+}
+#teljes_oldal #header #h_text{
+	color: white;
+
+
+	font-weight: bold;
+
+	width:330px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+}
+
+
+/* Content formatting */
+#teljes_oldal #container{
+	padding-top: 0px;
+
+}
+
+
+/* Option buttons */
+#teljes_oldal #content{
+	color: #000000;
+	font-size: 25px;
+	font-weight: 550;
+
+	text-align: center;
+
+	width: 690px;
+	margin-top: 5%;
+
+	margin-left: auto;
+	margin-right: auto;
+	height: 4em;
+}
+#teljes_oldal #content img{
+	height: 3em;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+#teljes_oldal #content a{
+	text-decoration: none;
+	color:black;
+}
+#teljes_oldal #content #diak:hover,#tanar:hover,#admin:hover{
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0.1px 0.1px 10px 0.1px #777777;
+}
+
+
+#teljes_oldal #content #diak,#admin,#tanar{
+	float:left;
+
+	background-color: rgba(255,255,255,0.7);
+
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top:9px;
+	padding-bottom: 9px;
+
+	margin-left: 10px;
+	border: none;
+
+	font-size: 25px;
+	font-weight: 550;
+
+	cursor: pointer;
+}
+
+
+/* Login form */
+#login{
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 400px;
+
+	font-size: 20px;
+}
+#login #osztaly{
+	width:328px;
+	box-sizing: border-box;
+	border: none;
+ 	font-size: 16px;
+ 	background-color: white;
+ 	padding: 12px 20px 12px 5px;
+	color:#777777;
+}
+#submit{
+	width:130px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+@keyframes fadeIn {
+	0%{
+		opacity: 0;
+		transform: rotateX(0%);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateX(100%);
+
+	}
+}
+#login #diakForm{
+	position: absolute;
+	visibility: hidden;
+}
+#login #adminForm{
+	position: absolute;
+	visibility: hidden;
+}
+#login #tanarForm{
+	position: absolute;
+	visibility: hidden;
+}
+#login #showPass{
+	cursor: pointer;
+}

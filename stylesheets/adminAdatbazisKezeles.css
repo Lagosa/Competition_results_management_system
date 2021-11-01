@@ -1,0 +1,62 @@
+#tartalom{
+  width: 100%;
+}
+.fieldTable{
+  margin-top: 50px;
+  margin-bottom: -25px;
+}
+.label{
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 0px solid white;
+}
+
+.upload{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  margin-left: 30px;
+}
+#uploadForm{
+  width: 300px;
+}
+.submitInput{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.warning{
+  color: #FF5722;
+}
+.download{
+  margin-left: -15px;
+  background-color: #b3603d;
+}
+.pass{
+  width: auto;
+  height: 160px;
+  float:left;
+  margin-right: 25px;
+}
+.mentes{
+  margin-left: 50px;
+  margin-right: auto;
+}
+#jelszoDiak, #jelszoAdmin, #jelszoTanar{
+  width: 200px;
+  border-bottom: 1px solid #777777;
+}
+.pass56{
+  margin-right: 0px;
+}
+#passwords{
+  width: 765px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 190px;
+}

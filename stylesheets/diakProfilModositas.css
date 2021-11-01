@@ -1,0 +1,32 @@
+
+/* Header */
+#header .modositas{
+  background-color: #3d5d7a;
+}
+
+/* Form */
+#modositas{
+  margin-top: 5%;
+}
+#modositas .submitInput{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#modositas .textInput{
+  width: 150px;
+  text-align: center;
+  font-weight: 700;
+  color:black;
+}
+#modositas #jelszo{
+  font-weight: 500;
+}
+#modositas #jelszoUjra{
+  font-weight: 500;
+}
+#modositas .heading{
+  font-size: 30px;
+  text-align: center;
+  padding:50px;
+}

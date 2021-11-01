@@ -1,0 +1,115 @@
+body{
+	background-color:#dddcdc;
+	font-family: 'Arial', Calibri;
+}
+
+
+/* Header formatting */
+#header .options .bevezetes, .listazas, .modositas, .kijelentkezes, .hamburger{
+	margin-top:-5px;
+}
+#tartalom #header {
+	background-color:#5f7f9e;
+
+	font-size: 25px;
+
+	padding: 0.5em;
+	margin:-7px;
+
+	padding-bottom: 0px;
+	margin-top:-25px;
+}
+
+/* Content formatting */
+#tartalom #container{
+	padding-top: 0px;
+
+}
+
+
+/* Option buttons */
+#content{
+	color: #000000;
+	font-size: 25px;
+	font-weight: 550;
+
+	text-align: center;
+
+	width: 530px;
+	margin-top: 5%;
+
+	margin-left: auto;
+	margin-right: auto;
+	height: 4em;
+}
+#content img{
+	height: 3em;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+#content a{
+	text-decoration: none;
+	color:black;
+}
+#content #felolvas:hover,#szamitas:hover{
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0.1px 0.1px 10px 0.1px #777777;
+}
+
+#options{
+	height: 200px;;
+}
+
+#content #options #felolvas,#szamitas{
+	float:left;
+
+	background-color: rgba(255,255,255,0.7);
+
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top:9px;
+	padding-bottom: 9px;
+
+	margin-left: 10px;
+	border: none;
+
+	width:250px;
+	height:150px;
+
+	font-size: 25px;
+	font-weight: 550;
+
+	cursor: pointer;
+}
+
+#felolvasas, #szamitasok, #szamitasTanar, #szamitasOsztaly{
+	visibility: hidden;
+	position:absolute;
+}
+#felolvasas{
+	width:500px;
+}
+#szamitasTanarContainer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+}
+.submitInput{
+	margin-left:10px;
+	margin-right: 10px;
+
+	background-color: #b3603d;
+
+	height: 50px;
+	width: 170px;
+}
+.form{
+	width:400px;
+	position:relative;
+	margin-left:auto;
+	margin-right: auto;
+}
+.szamitasContainer{
+	margin-top: 50px;
+	position: relative;
+}

@@ -1,0 +1,69 @@
+/* Header */
+#header .bevezetes{
+  background-color: #3d5d7a;
+}
+
+/* Tartalom */
+.fieldTable{
+  width: 400px;
+}
+#bevezetes{
+  margin-top:30px;
+}
+.textInput{
+  width:250px;
+  font-weight: bold;
+}
+label{
+  font-weight: bold;
+}
+td{
+  position: relative;
+}
+.label{
+  width: 130px;
+  text-align: center;
+  border-right: 1px solid #dddada;
+}
+.submitInput{
+  margin-top:20px;
+  height: 40px;
+}
+.submit{
+  width:270px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0px;
+  height:50px;
+}
+.submitInput{
+  margin-left: auto;
+  margin-right: auto;
+}
+.versenyMas{
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 3px;
+}
+.verseny{
+  position: relative;
+  visibility: visible;
+  display: block;
+}
+#tipus{
+  display: none;
+}
+#mezokUriteseBTN{
+  background-color:#b3603d;
+
+}
+@media screen and (max-width:600px;){
+	#diakNeveTable{
+		margin-left:90px;
+	}
+}
+@media screen and (max-width:300px;){
+	#diakNeveTable{
+		margin-left:90px;
+	}
+}

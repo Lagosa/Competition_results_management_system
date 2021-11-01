@@ -1,0 +1,49 @@
+/* Header */
+#header .listazas{
+  background-color: #3d5d7a;
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+/* Tartalom */
+#container{
+  width:90%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+
+  padding:20px;
+  padding-bottom:75px;
+
+  box-shadow: 3px 3px 10px 3px #777777;
+
+  background-color: white;
+  animation: 1.2s ease-in 0s 1 fadeIn;
+}
+#modositas{
+  width: 100%;
+}
+
+#lista td{
+  border-bottom: 1px solid #b3603d;
+  padding:15px;
+}
+#lista{
+  vertical-align: middle;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .headingCollumn{
+  font-weight: bold;
+  text-align: center;
+}

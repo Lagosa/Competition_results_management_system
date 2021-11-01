@@ -1,0 +1,112 @@
+body{
+	background-color:#dddcdc;
+	font-family: 'Arial', Calibri;
+}
+
+/* Header */
+#header{
+  background-color: #5f7f9e;
+  height:70px;
+  margin:-7px;
+}
+
+#header img{
+  height: 50px;
+  padding:10px;
+  vertical-align: middle;
+}
+#header #image{
+  float:left;
+}
+#header .options{
+  float:right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+#header .options .bevezetes, .listazas, .modositas, .kijelentkezes, .hamburger{
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float:left;
+
+  border-right: 1px solid white;
+}
+#header .options .kijelentkezes, .hamburger{
+  border:none;
+}
+#header .options .listazas:hover, .bevezetes:hover, .kijelentkezes:hover, .modositas:hover{
+  background-color: #3d5d7a;
+}
+#header .options a{
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+.hamburger i{
+  color: white;
+}
+
+@media screen and (max-width:1050px){
+  #header .options .bevezetes, .listazas, .modositas, .kijelentkezes {
+    display: none;
+  }
+  #header .options .hamburger{
+    display: block;
+    margin-top: -70px;
+  }
+}
+@media screen and (max-width:1050px){
+  #header .options.responsive{
+    position:relative;
+    float:none;
+  }
+  #header #image{
+    float:none;
+  }
+  #header{
+    height:auto;
+  }
+  #header .options.responsive .hamburger{
+    top: 0px;
+    right:0px;
+    position: absolute;
+  }
+  #header .options.responsive .bevezetes{
+    float:none;
+    display: block;
+    text-align: left;
+    border:none;
+  }
+  #header .options.responsive .listazas{
+    float:none;
+    display: block;
+    text-align: left;
+    border:none;
+  }
+  #header .options.responsive .modositas{
+    float:none;
+    display: block;
+    text-align: left;
+    border:none;
+  }
+  #header .options.responsive .kijelentkezes{
+    float:none;
+    display: block;
+    text-align: left;
+    border:none;
+  }
+}
+#header #osztaly{
+  background-color: #5f7f9e;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #dddcdc;
+  width:50px;
+}
